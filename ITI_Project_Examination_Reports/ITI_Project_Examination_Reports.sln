@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "ITI_Project_Examination_Reports", "ITI_Project_Examination_Reports\ITI_Project_Examination_Reports.rptproj", "{CB740374-9EAB-4C58-B12A-F4802E61ED34}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CB740374-9EAB-4C58-B12A-F4802E61ED34}.Debug|Default.ActiveCfg = Debug
+		{CB740374-9EAB-4C58-B12A-F4802E61ED34}.Debug|Default.Build.0 = Debug
+		{CB740374-9EAB-4C58-B12A-F4802E61ED34}.Debug|Default.Deploy.0 = Debug
+		{CB740374-9EAB-4C58-B12A-F4802E61ED34}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{CB740374-9EAB-4C58-B12A-F4802E61ED34}.DebugLocal|Default.Build.0 = DebugLocal
+		{CB740374-9EAB-4C58-B12A-F4802E61ED34}.Release|Default.ActiveCfg = Release
+		{CB740374-9EAB-4C58-B12A-F4802E61ED34}.Release|Default.Build.0 = Release
+		{CB740374-9EAB-4C58-B12A-F4802E61ED34}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4FFB3A8F-8B0D-4816-9241-1FBBF2309BA6}
+	EndGlobalSection
+EndGlobal

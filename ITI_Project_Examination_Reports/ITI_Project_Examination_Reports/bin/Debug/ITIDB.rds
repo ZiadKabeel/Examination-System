@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RptDataSource xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="ITIDB">
+  <ConnectionProperties>
+    <Extension>SQL</Extension>
+    <ConnectString>Server=localhost\SQLEXPRESS01;Database=iti_project;</ConnectString>
+    <IntegratedSecurity>true</IntegratedSecurity>
+  </ConnectionProperties>
+  <DataSourceID>82070f86-7054-43dc-b108-e76a6ccdad50</DataSourceID>
+</RptDataSource>
