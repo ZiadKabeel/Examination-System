@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Examination System - Exam</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body data-page="exam">
+    <header class="exam-topbar">
+      <div>
+        <h1 id="examTitle">ITI Examination Website</h1>
+        <p id="examProgress" class="muted">Question 1 of 1</p>
+      </div>
+      <div class="exam-timer" id="examTimer">⏱ 30:00</div>
+      <button id="logout" class="link-btn">Logout</button>
+    </header>
+
+    <main class="exam-shell">
+      <section class="exam-card">
+        <div class="question-tag" id="questionTag">Question</div>
+        <h2 id="questionText">Question text</h2>
+        <p id="questionMeta" class="muted"></p>
+        <div id="choicesContainer" class="choices-grid"></div>
+
+        <div class="exam-footer">
+          <span id="answeredCount" class="muted">0 answered</span>
+          <div class="exam-actions">
+            <button id="nextQuestion" class="btn ghost" type="button">Next</button>
+            <button id="submitExam" class="btn primary" type="button">Submit Exam</button>
+          </div>
+        </div>
+
+        <div id="submitStatus" class="alert hidden"></div>
+      </section>
+
+      <section class="navigator-card">
+        <h3>Question Navigator</h3>
+        <div id="questionNav" class="navigator-grid"></div>
+      </section>
+    </main>
+
+    <script src="/app.js"></script>
+  </body>
+</html>

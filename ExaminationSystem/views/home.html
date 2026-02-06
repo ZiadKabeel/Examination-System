@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Academic Exam Portal</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body data-page="home">
+    <header class="portal-header">
+      <div class="brand">
+        <span class="brand-icon">📘</span>
+        <div>
+          <h1>ITI Examination Website</h1>
+          <p id="studentWelcome" class="muted"></p>
+        </div>
+      </div>
+      <button id="logout" class="link-btn">Logout</button>
+    </header>
+
+    <main class="portal">
+      <div class="portal-title">
+        <h2>Select Your Subject</h2>
+        <p class="muted">Choose a subject to begin your examination</p>
+      </div>
+
+      <div id="courseList" class="subject-grid"></div>
+      <div id="homeStatus" class="alert hidden"></div>
+    </main>
+
+    <script src="/app.js"></script>
+  </body>
+</html>

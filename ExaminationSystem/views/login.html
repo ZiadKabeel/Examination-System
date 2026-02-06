@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Examination System - Login</title>
+		<link rel="stylesheet" href="/style.css" />
+	</head>
+	<body data-page="login">
+		<div class="wrapper">
+			<form id="loginForm">
+				<h2>Login</h2>
+				<div class="input-field">
+					<input type="number" name="st_id" required />
+					<label>Enter your ID</label>
+				</div>
+				<div class="input-field">
+					<input type="password" name="password" required />
+					<label>Enter your password</label>
+				</div>
+				<button type="submit">Log In</button>
+				<div id="loginError" class="alert error hidden"></div>
+			</form>
+		</div>
+		<script src="/app.js"></script>
+	</body>
+</html>
